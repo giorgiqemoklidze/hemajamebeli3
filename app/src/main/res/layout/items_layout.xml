@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/saxeli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="saxeli"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/gvari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gvari"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textSize="30sp"
+            android:textColor="@color/black"/>
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+        android:id="@+id/imgBtnDelete"
+        android:layout_marginStart="200dp"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_android_black_24dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/imgBtnEdit"
+            android:layout_marginStart="200dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_android_black_24dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
