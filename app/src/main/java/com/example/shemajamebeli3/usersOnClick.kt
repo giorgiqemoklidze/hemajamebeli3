@@ -1,6 +1,5 @@
 package com.example.shemajamebeli3
 
 interface usersOnClick {
-   fun onClickListener()
-
+   fun onClickListener(position: Int)
 }
